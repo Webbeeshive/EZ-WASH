@@ -1,0 +1,59 @@
+@import "reset.css";
+@import "bootstrap.min.css";
+@import "common.css";
+
+
+.ezContainer{
+    width:100%;
+}
+
+.ezContainer .ezOc{
+    width:100%;
+    position: relative;    
+}
+
+
+.ezContainer .ezIc{
+    width:1200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.ezMainNav{
+    padding: 50px 0 32px 0; 
+}
+
+.ezMainNav ul{
+    margin: 0px;
+    padding: 0px;
+} 
+.ezMainNav ul li{
+    float: right;
+    list-style-type: none;
+    margin: 0px;
+    padding:0px 25px 0px 25px;
+}
+
+.ezMainNav ul li a{
+    
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    color:#555555;
+     transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    padding-bottom: 12px;
+    
+    border-bottom:3px solid transparent;
+    
+}
+
+
+.ezMainNav ul li a:hover{
+    text-decoration:none;
+    border-bottom:3px solid #1b2d71;
+    color:#1b2d71;    
+}
+

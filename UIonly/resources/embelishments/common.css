@@ -1,19 +1,153 @@
-.txtBright{
+.eztxtZero{
+    text-align: center;
+    font-size:0px;
+}
+.eztxtBright{
     color:white;
 }
 
-.txtBlue{
+.eztxtBlue{
     color:#162868;
 }
 
-.txtDark{
+.eztxtDark{
     color:#555555;
 }
 
-.txtYellow{
+.eztxtYellow{
     color:#ede157;
 }
 
-.backDark{
+.ezbackDark{
     background:#111111;
+}
+
+
+.ezbackBright{
+   background:white; 
+}
+
+.ezbackYellow{
+    background:#eee258;
+}
+
+.ezbackBlue{
+    background:#16286a;
+}
+
+/*ICON SELECTOR:Start*/
+.ezIcon{
+    background-size:100% 100% !important;
+    background-repeat: no-repeat;
+}
+/*ICON SELECTOR:End*/
+
+/*PADDING SELECTORS:Start*/
+
+.ezpTMega{
+    padding-top: 50px;
+}
+
+.ezpBMega{
+    padding-bottom: 50px;
+}
+
+.ezpLMega{
+    padding-left: 50px;
+}
+
+.ezpRMega{
+    padding-right: 50px;
+}
+
+
+.ezpT5{
+    padding-top: 34px;
+}
+
+.ezpB5{
+    padding-bottom: 34px;
+}
+
+.pL5{
+    padding-left: 34px;
+}
+
+.ezpR5{
+    padding-right: 34px;
+}
+
+
+.ezpT4{
+    padding-top: 30px;
+}
+
+.ezpB4{
+    padding-bottom: 30px;
+}
+
+.pL4{
+    padding-left: 30px;
+}
+
+.ezpR4{
+    padding-right: 30px;
+}
+
+
+
+.ezpT4{
+    padding-top: 30px;
+}
+
+.ezpB4{
+    padding-bottom: 30px;
+}
+
+.ezpL4{
+    padding-left: 30px;
+}
+
+.ezpR4{
+    padding-right: 30px;
+}
+
+
+
+.pT3{
+    padding-top: 20px;
+}
+
+.pB3{
+    padding-bottom: 20px;
+}
+
+.pL3{
+    padding-left: 20px;
+}
+
+.pR3{
+    padding-right: 20px;
+}
+
+
+/*PADDING SELECTORS:End*/
+
+/*TRANSFORM CLASSES:Start*/
+.allTransition{
+    transition:: all 1.5s;
+    -webkit-transition:: all 1.5s;
+    -o-transition:: all 1.5s;
+    -moz-transition:: all 1.5s;
+}
+
+/*TRANSFORM CLASSES:End*/
+
+.testmockup{
+    width:100%;
+    height:3001px;
+    position: absolute;
+    top:0px;
+    left:0px;
+    background: url('../assets/images/testmockup.jpg') no-repeat top center;
 }
